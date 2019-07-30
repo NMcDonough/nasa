@@ -19,7 +19,7 @@ public class RoverCommunicator extends Frame{
     private TextArea commands;
     private final int plateau[] = new int[2];
     private Rover[] rovers;
-    Button submit;
+    private Button submit;
     
     public RoverCommunicator(){
         this.setLayout(new FlowLayout(FlowLayout.CENTER, 10, 10));
