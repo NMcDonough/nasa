@@ -98,7 +98,7 @@ public class Rover {
     
     //Returns updated rover location or humorous message.
     private String report(){
-        if(location[0] > plateau[0] || location[0] < 0 || location[1] > location[1] || location[1] < 0)
+        if(location[0] > plateau[0] || location[0] < 0 || location[1] > plateau[1] || location[1] < 0)
             return "Rover has stopped responding. Last transmission suggests Rover has fallen off the plateau.\nPlease take better care of the rovers, these things are expensive.";
         else
             return location[0] + " " + location[1] + " " + orientation;
