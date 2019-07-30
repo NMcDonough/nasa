@@ -30,7 +30,7 @@ public class Rover {
         plateau[1] = Integer.parseInt(parsedString[1]);
     }
     
-    //Checks bearing then executes corresding method.
+    //Checks bearing then executes corresponding method.
     private void move(String s) {
         String[] commands = s.split("");
         for(int x=0; x<commands.length; x++){
